@@ -1,0 +1,3 @@
+2022-05-23 21:16:55	INFO	cgo-test/main.go:16	Start Run...
+2022-05-23 21:16:55	INFO	cgo-test/main.go:17	/tmp/go-build1427497332/b001/exe/main
+2022-05-23 21:16:55	INFO	cgo-test/main.go:29	Success! Consume time 0s
