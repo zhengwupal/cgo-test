@@ -11,11 +11,19 @@ import (
 	"sync"
 	"syscall"
 	"unsafe"
+
+	"github.com/zhengwupal/cgo-test/logs"
 )
 
 //export go_debug_log
 func go_debug_log(msg *C.char) {
 	LOG_STD("C function, ", C.GoString(msg))
+	logs.SugarLogger.Infof("Test5 go_debug_log msg: %s", C.GoString(msg))
+}
+
+//export go_debug_log_char
+func go_debug_log_char(msg *C.char, arg *C.char) {
+	logs.SugarLogger.Infof("Test5 go_debug_log_char msg: %s --- %s", C.GoString(msg), C.GoString(arg))
 }
 
 func produce(jobs chan<- int, idx int, wg *sync.WaitGroup) {
@@ -39,6 +47,7 @@ func produce(jobs chan<- int, idx int, wg *sync.WaitGroup) {
 func consume(jobs <-chan int, done chan<- bool) {
 	for msg := range jobs {
 		fmt.Printf("Consumed message \"%v\"\n", msg)
+		logs.SugarLogger.Infof("Test5 produce %d End", msg)
 	}
 	done <- true
 }
@@ -79,18 +88,6 @@ func SetMaxOpenFiles(max, cur uint64) bool {
 	rLimit.Cur = cur
 	LOG_STD(rLimit.Max, rLimit.Cur)
 
-	err = syscall.Setrlimit(syscall.RLIMIT_NOFILE, &rLimit)
-	if err != nil {
-		LOG_STD("Error Setting Rlimit ", err)
-		return false
-	}
-
-	err = syscall.Getrlimit(syscall.RLIMIT_NOFILE, &rLimit)
-	if err != nil {
-		LOG_STD("Error Getting Rlimit ", err)
-		return false
-	}
-
 	DBG("Set success, Rlimit Final", rLimit)
 	return true
 }
@@ -117,12 +114,15 @@ func Test5() {
 		return
 	}
 
+	logs.SugarLogger.Infof("Test5 Start")
+
 	jobs := make(chan int, 100)
 	done := make(chan bool)
 	wg := sync.WaitGroup{}
 
 	for i := 0; i < 10; i++ {
 		wg.Add(1)
+		logs.SugarLogger.Infof("Test5 produce %d Start", i)
 		go produce(jobs, i, &wg)
 	}
 

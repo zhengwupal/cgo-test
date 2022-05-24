@@ -4,10 +4,13 @@
 #include <stdlib.h>
 #include "number.h"
 
-int number_div(int a, int b) {
-	if(b == 0) {
+int number_div(int a, int b)
+{
+	if (b == 0)
+	{
 		errno = EINVAL;
 		fprintf(stderr, "Division by zero! Exiting...\n");
+		printf("122");
 		return 0;
 		// exit(EXIT_FAILURE);
 	}
@@ -17,12 +20,14 @@ int number_div(int a, int b) {
 	// fp = fopen("123.txt", "r");
 	// printf("The error message is: %s\n", strerror(errno));
 	// perror("Message from perror");
-	return a/b;
+	return a / b;
 }
 
-char* foo(char *input) {
-	char* m = malloc(16*sizeof(char));
+char *foo(char *input)
+{
+	char *m = malloc(16 * sizeof(char));
 	sprintf(m, "%s", input);
 	go_debug_log("Read done...............");
+	go_debug_log_char("Read done...............", m);
 	return m;
 }

@@ -22,6 +22,8 @@ import (
 	"fmt"
 	"reflect"
 	"unsafe"
+
+	"github.com/zhengwupal/cgo-test/logs"
 )
 
 //export goAdd
@@ -37,13 +39,17 @@ func goAdd(a1, b1 C.int) C.int {
 func returnString() *C.char {
 	gostring := "hello world11111111111111111111"
 	fmt.Println("s", reflect.TypeOf(C.CString(gostring)))
+	logs.SugarLogger.Infof("test7 returnString gostring: %s", gostring)
 	return C.CString(gostring)
 }
 
 func Test7() {
 	co := C.cString()
-	fmt.Println(C.GoString(co))
+	cos := C.GoString(co)
 	C.free(unsafe.Pointer(co))
+	fmt.Println(cos)
+
+	logs.SugarLogger.Infof("test7 cos: %s", cos)
 
 	var a, b int = 5, 6
 	fmt.Println("1", reflect.TypeOf(a))
