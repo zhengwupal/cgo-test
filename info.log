@@ -1,76 +1,43 @@
-2022-05-24 10:15:33	INFO	cgo-test/main.go:14	Start Run...
-2022-05-24 10:15:33	INFO	pack1/test5.go:112	Test5 Start
-2022-05-24 10:15:33	INFO	pack1/test5.go:120	Test5 produce 0 Start
-2022-05-24 10:15:33	INFO	pack1/test5.go:120	Test5 produce 1 Start
-2022-05-24 10:15:33	INFO	pack1/test5.go:120	Test5 produce 2 Start
-2022-05-24 10:15:33	INFO	pack1/test5.go:120	Test5 produce 3 Start
-2022-05-24 10:15:33	INFO	pack1/test5.go:120	Test5 produce 4 Start
-2022-05-24 10:15:33	INFO	pack1/test5.go:120	Test5 produce 5 Start
-2022-05-24 10:15:33	INFO	pack1/test5.go:120	Test5 produce 6 Start
-2022-05-24 10:15:33	INFO	pack1/test5.go:21	Test5 go_debug_log msg: Read done...............
-2022-05-24 10:15:33	INFO	pack1/test5.go:21	Test5 go_debug_log msg: Read done...............
-2022-05-24 10:15:33	INFO	pack1/test5.go:21	Test5 go_debug_log msg: Read done...............
-2022-05-24 10:15:33	INFO	pack1/test5.go:120	Test5 produce 7 Start
-2022-05-24 10:15:33	INFO	pack1/test5.go:21	Test5 go_debug_log msg: Read done...............
-2022-05-24 10:15:33	INFO	pack1/test5.go:120	Test5 produce 8 Start
-2022-05-24 10:15:33	INFO	pack1/test5.go:21	Test5 go_debug_log msg: Read done...............
-2022-05-24 10:15:33	INFO	pack1/test5.go:21	Test5 go_debug_log msg: Read done...............
-2022-05-24 10:15:33	INFO	pack1/test5.go:120	Test5 produce 9 Start
-2022-05-24 10:15:33	INFO	pack1/test5.go:21	Test5 go_debug_log msg: Read done...............
-2022-05-24 10:15:33	INFO	pack1/test5.go:45	Test5 produce 2 End
-2022-05-24 10:15:33	INFO	pack1/test5.go:21	Test5 go_debug_log msg: Read done...............
-2022-05-24 10:15:33	INFO	pack1/test5.go:45	Test5 produce 1 End
-2022-05-24 10:15:33	INFO	pack1/test5.go:21	Test5 go_debug_log msg: Read done...............
-2022-05-24 10:15:33	INFO	pack1/test5.go:21	Test5 go_debug_log msg: Read done...............
-2022-05-24 10:15:33	INFO	pack1/test5.go:45	Test5 produce 0 End
-2022-05-24 10:15:33	INFO	pack1/test5.go:45	Test5 produce 5 End
-2022-05-24 10:15:33	INFO	pack1/test5.go:45	Test5 produce 3 End
-2022-05-24 10:15:33	INFO	pack1/test5.go:45	Test5 produce 6 End
-2022-05-24 10:15:33	INFO	pack1/test5.go:45	Test5 produce 7 End
-2022-05-24 10:15:33	INFO	pack1/test5.go:45	Test5 produce 8 End
-2022-05-24 10:15:33	INFO	pack1/test5.go:45	Test5 produce 4 End
-2022-05-24 10:15:33	INFO	pack1/test5.go:45	Test5 produce 9 End
-2022-05-24 10:15:33	INFO	cgo-test/main.go:26	Success! Consume time 9ms
-2022-05-24 11:06:29	INFO	cgo-test/main.go:14	Start Run...
-2022-05-24 11:06:29	INFO	pack1/test5.go:117	Test5 Start
-2022-05-24 11:06:29	INFO	pack1/test5.go:125	Test5 produce 0 Start
-2022-05-24 11:06:29	INFO	pack1/test5.go:125	Test5 produce 1 Start
-2022-05-24 11:06:29	INFO	pack1/test5.go:125	Test5 produce 2 Start
-2022-05-24 11:06:29	INFO	pack1/test5.go:125	Test5 produce 3 Start
-2022-05-24 11:06:29	INFO	pack1/test5.go:125	Test5 produce 4 Start
-2022-05-24 11:06:29	INFO	pack1/test5.go:125	Test5 produce 5 Start
-2022-05-24 11:06:29	INFO	pack1/test5.go:125	Test5 produce 6 Start
-2022-05-24 11:06:29	INFO	pack1/test5.go:125	Test5 produce 7 Start
-2022-05-24 11:06:29	INFO	pack1/test5.go:125	Test5 produce 8 Start
-2022-05-24 11:06:29	INFO	pack1/test5.go:21	Test5 go_debug_log msg: Read done...............
-2022-05-24 11:06:29	INFO	pack1/test5.go:125	Test5 produce 9 Start
-2022-05-24 11:06:29	INFO	pack1/test5.go:26	Test5 go_debug_log_char msg: Read done............... --- hello
-2022-05-24 11:06:29	INFO	pack1/test5.go:21	Test5 go_debug_log msg: Read done...............
-2022-05-24 11:06:29	INFO	pack1/test5.go:26	Test5 go_debug_log_char msg: Read done............... --- hello
-2022-05-24 11:06:29	INFO	pack1/test5.go:21	Test5 go_debug_log msg: Read done...............
-2022-05-24 11:06:29	INFO	pack1/test5.go:26	Test5 go_debug_log_char msg: Read done............... --- hello
-2022-05-24 11:06:29	INFO	pack1/test5.go:50	Test5 produce 4 End
-2022-05-24 11:06:29	INFO	pack1/test5.go:21	Test5 go_debug_log msg: Read done...............
-2022-05-24 11:06:29	INFO	pack1/test5.go:21	Test5 go_debug_log msg: Read done...............
-2022-05-24 11:06:29	INFO	pack1/test5.go:26	Test5 go_debug_log_char msg: Read done............... --- hello
-2022-05-24 11:06:29	INFO	pack1/test5.go:50	Test5 produce 1 End
-2022-05-24 11:06:29	INFO	pack1/test5.go:50	Test5 produce 7 End
-2022-05-24 11:06:29	INFO	pack1/test5.go:21	Test5 go_debug_log msg: Read done...............
-2022-05-24 11:06:29	INFO	pack1/test5.go:26	Test5 go_debug_log_char msg: Read done............... --- hello
-2022-05-24 11:06:29	INFO	pack1/test5.go:50	Test5 produce 3 End
-2022-05-24 11:06:29	INFO	pack1/test5.go:21	Test5 go_debug_log msg: Read done...............
-2022-05-24 11:06:29	INFO	pack1/test5.go:26	Test5 go_debug_log_char msg: Read done............... --- hello
-2022-05-24 11:06:29	INFO	pack1/test5.go:21	Test5 go_debug_log msg: Read done...............
-2022-05-24 11:06:29	INFO	pack1/test5.go:26	Test5 go_debug_log_char msg: Read done............... --- hello
-2022-05-24 11:06:29	INFO	pack1/test5.go:21	Test5 go_debug_log msg: Read done...............
-2022-05-24 11:06:29	INFO	pack1/test5.go:26	Test5 go_debug_log_char msg: Read done............... --- hello
-2022-05-24 11:06:29	INFO	pack1/test5.go:50	Test5 produce 6 End
-2022-05-24 11:06:29	INFO	pack1/test5.go:26	Test5 go_debug_log_char msg: Read done............... --- hello
-2022-05-24 11:06:29	INFO	pack1/test5.go:21	Test5 go_debug_log msg: Read done...............
-2022-05-24 11:06:29	INFO	pack1/test5.go:50	Test5 produce 0 End
-2022-05-24 11:06:29	INFO	pack1/test5.go:50	Test5 produce 9 End
-2022-05-24 11:06:29	INFO	pack1/test5.go:50	Test5 produce 8 End
-2022-05-24 11:06:29	INFO	pack1/test5.go:50	Test5 produce 5 End
-2022-05-24 11:06:29	INFO	pack1/test5.go:26	Test5 go_debug_log_char msg: Read done............... --- hello
-2022-05-24 11:06:29	INFO	pack1/test5.go:50	Test5 produce 2 End
-2022-05-24 11:06:29	INFO	cgo-test/main.go:26	Success! Consume time 17ms
+2022-05-24 16:29:29	INFO	cgo-test/main.go:14	Start Run...
+2022-05-24 16:29:29	INFO	pack1/test5.go:117	Test5 Start
+2022-05-24 16:29:29	INFO	pack1/test5.go:125	Test5 produce 0 Start
+2022-05-24 16:29:29	INFO	pack1/test5.go:125	Test5 produce 1 Start
+2022-05-24 16:29:29	INFO	pack1/test5.go:125	Test5 produce 2 Start
+2022-05-24 16:29:29	INFO	pack1/test5.go:125	Test5 produce 3 Start
+2022-05-24 16:29:29	INFO	pack1/test5.go:125	Test5 produce 4 Start
+2022-05-24 16:29:29	INFO	pack1/test5.go:125	Test5 produce 5 Start
+2022-05-24 16:29:29	INFO	pack1/test5.go:125	Test5 produce 6 Start
+2022-05-24 16:29:29	INFO	pack1/test5.go:125	Test5 produce 7 Start
+2022-05-24 16:29:29	INFO	pack1/test5.go:125	Test5 produce 8 Start
+2022-05-24 16:29:29	INFO	pack1/test5.go:125	Test5 produce 9 Start
+2022-05-24 16:29:29	INFO	pack1/test5.go:21	Test5 go_debug_log msg: foo char m is: hello
+2022-05-24 16:29:29	INFO	pack1/test5.go:26	Test5 go_debug_log_char msg: Read done............... --- hello
+2022-05-24 16:29:29	INFO	pack1/test5.go:21	Test5 go_debug_log msg: foo char m is: hello
+2022-05-24 16:29:29	INFO	pack1/test5.go:26	Test5 go_debug_log_char msg: Read done............... --- hello
+2022-05-24 16:29:29	INFO	pack1/test5.go:50	Test5 produce 0 End
+2022-05-24 16:29:29	INFO	pack1/test5.go:21	Test5 go_debug_log msg: foo char m is: hello
+2022-05-24 16:29:29	INFO	pack1/test5.go:26	Test5 go_debug_log_char msg: Read done............... --- hello
+2022-05-24 16:29:29	INFO	pack1/test5.go:21	Test5 go_debug_log msg: foo char m is: hello
+2022-05-24 16:29:29	INFO	pack1/test5.go:21	Test5 go_debug_log msg: foo char m is: hello
+2022-05-24 16:29:29	INFO	pack1/test5.go:21	Test5 go_debug_log msg: foo char m is: hello
+2022-05-24 16:29:29	INFO	pack1/test5.go:26	Test5 go_debug_log_char msg: Read done............... --- hello
+2022-05-24 16:29:29	INFO	pack1/test5.go:21	Test5 go_debug_log msg: foo char m is: hello
+2022-05-24 16:29:29	INFO	pack1/test5.go:26	Test5 go_debug_log_char msg: Read done............... --- hello
+2022-05-24 16:29:29	INFO	pack1/test5.go:21	Test5 go_debug_log msg: foo char m is: hello
+2022-05-24 16:29:29	INFO	pack1/test5.go:26	Test5 go_debug_log_char msg: Read done............... --- hello
+2022-05-24 16:29:29	INFO	pack1/test5.go:21	Test5 go_debug_log msg: foo char m is: hello
+2022-05-24 16:29:29	INFO	pack1/test5.go:50	Test5 produce 3 End
+2022-05-24 16:29:29	INFO	pack1/test5.go:26	Test5 go_debug_log_char msg: Read done............... --- hello
+2022-05-24 16:29:29	INFO	pack1/test5.go:50	Test5 produce 9 End
+2022-05-24 16:29:29	INFO	pack1/test5.go:50	Test5 produce 6 End
+2022-05-24 16:29:29	INFO	pack1/test5.go:50	Test5 produce 7 End
+2022-05-24 16:29:29	INFO	pack1/test5.go:21	Test5 go_debug_log msg: foo char m is: hello
+2022-05-24 16:29:29	INFO	pack1/test5.go:26	Test5 go_debug_log_char msg: Read done............... --- hello
+2022-05-24 16:29:29	INFO	pack1/test5.go:50	Test5 produce 2 End
+2022-05-24 16:29:29	INFO	pack1/test5.go:50	Test5 produce 8 End
+2022-05-24 16:29:29	INFO	pack1/test5.go:50	Test5 produce 4 End
+2022-05-24 16:29:29	INFO	pack1/test5.go:26	Test5 go_debug_log_char msg: Read done............... --- hello
+2022-05-24 16:29:29	INFO	pack1/test5.go:50	Test5 produce 1 End
+2022-05-24 16:29:29	INFO	pack1/test5.go:26	Test5 go_debug_log_char msg: Read done............... --- hello
+2022-05-24 16:29:29	INFO	pack1/test5.go:50	Test5 produce 5 End
+2022-05-24 16:29:29	INFO	cgo-test/main.go:26	Success! Consume time 15ms

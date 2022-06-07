@@ -1,2 +1,2 @@
-[log.server]2022/05/24 11:06:29 Rlimit Start {4096 4096}
-[log.server]2022/05/24 11:06:29 Set success, Rlimit Final {1024 1024}
+[log.server]2022/05/24 16:29:29 Rlimit Start {4096 4096}
+[log.server]2022/05/24 16:29:29 Set success, Rlimit Final {1024 1024}
